@@ -1,0 +1,80 @@
+[/]
+builtin-theme=false
+dark-theme=true
+migration-level=1
+panels=['814390f6-b37b-11ec-82a0-91358437441c']
+
+[applets/{1c0a4558-b395-11ec-82a0-91358437441c}]
+alignment='end'
+name='Separator'
+position=4
+
+[applets/{29343734-b395-11ec-82a0-91358437441c}]
+alignment='end'
+name='Raven Trigger'
+position=5
+
+[applets/{48ee0348-b395-11ec-82a0-91358437441c}]
+alignment='end'
+name='Clock'
+position=7
+
+[applets/{54396fe0-b399-11ec-82a0-91358437441c}]
+alignment='end'
+name='User Indicator'
+position=9
+
+[applets/{589b2d5c-b395-11ec-82a0-91358437441c}]
+alignment='end'
+name='Separator'
+position=6
+
+[applets/{61fa2f5c-b399-11ec-82a0-91358437441c}]
+alignment='end'
+name='Separator'
+position=8
+
+[applets/{7baa7e84-b394-11ec-82a0-91358437441c}]
+alignment='end'
+name='Notifications'
+position=1
+
+[applets/{88f88018-b37b-11ec-82a0-91358437441c}]
+alignment='start'
+name='Budgie Menu'
+position=0
+
+[applets/{9473ba20-b37b-11ec-82a0-91358437441c}]
+alignment='center'
+name='Icon Task List'
+position=0
+
+[applets/{a56464c4-b394-11ec-82a0-91358437441c}]
+alignment='end'
+name='Separator'
+position=2
+
+[applets/{e4e079f0-b45f-11ec-af15-d189688f7388}]
+alignment='end'
+name='System Tray'
+position=0
+
+[applets/{f6561936-b394-11ec-82a0-91358437441c}]
+alignment='end'
+name='Status Indicator'
+position=3
+
+[instance/budgie-menu/{88f88018-b37b-11ec-82a0-91358437441c}]
+menu-compact=false
+
+[instance/icon-tasklist/{9473ba20-b37b-11ec-82a0-91358437441c}]
+lock-icons=false
+only-pinned=false
+pinned-launchers=['firefox.desktop', 'org.gnome.Terminal.desktop', 'budgie-desktop-settings.desktop', 'thunar.desktop']
+show-all-windows-on-click=false
+
+[panels/{814390f6-b37b-11ec-82a0-91358437441c}]
+applets=['54396fe0-b399-11ec-82a0-91358437441c', 'e4e079f0-b45f-11ec-af15-d189688f7388', 'f6561936-b394-11ec-82a0-91358437441c', '589b2d5c-b395-11ec-82a0-91358437441c', '48ee0348-b395-11ec-82a0-91358437441c', '9473ba20-b37b-11ec-82a0-91358437441c', '88f88018-b37b-11ec-82a0-91358437441c', 'a56464c4-b394-11ec-82a0-91358437441c', '61fa2f5c-b399-11ec-82a0-91358437441c', '7baa7e84-b394-11ec-82a0-91358437441c', '29343734-b395-11ec-82a0-91358437441c', '1c0a4558-b395-11ec-82a0-91358437441c']
+location='bottom'
+size=39
+transparency='none'
